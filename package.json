@@ -7,8 +7,8 @@
     "test": "test"
   },
   "scripts": {
-    "test": "browserify test/index.js | testling",
-    "build": "browserify --standalone blobStream . -o blob-stream.js"
+    "test": "npx browserify test/index.js | testling",
+    "build": "npx browserify --standalone blobStream . -o build/blob-stream.js"
   },
   "repository": {
     "type": "git",
